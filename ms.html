@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Manuscript & Contact | Global Academic Publishers LLC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #00509e;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      background-color: #0073e6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: #003366;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    label {
+      font-weight: 600;
+    }
+    input, textarea, select {
+      padding: 0.8rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      width: 100%;
+    }
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+    button {
+      background-color: #00509e;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      width: fit-content;
+      align-self: center;
+    }
+    button:hover {
+      background-color: #0073e6;
+    }
+    .contact-info {
+      text-align: center;
+      margin-top: 3rem;
+      background-color: #eef4fb;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    .contact-info p {
+      margin: 0.5rem 0;
+      font-size: 1.05rem;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Global Academic Publishers LLC</h1>
+    <p>Driven by Data, Defined by Quality</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="books.html">Books</a>
+    <a href="journals.html">Journals</a>
+    <a href="services.html">Services</a>
+    <a href="submit.html">Submit Manuscript</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Submit Your Manuscript</h2>
+    <form action="mailto:submissions@globalacademicpublishers.com" method="post" enctype="multipart/form-data">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="affiliation">Affiliation / Institution</label>
+      <input type="text" id="affiliation" name="affiliation">
+
+      <label for="manuscript-title">Manuscript Title</label>
+      <input type="text" id="manuscript-title" name="manuscript-title" required>
+
+      <label for="category">Category</label>
+      <select id="category" name="category" required>
+        <option value="Book">Book</option>
+        <option value="Journal Article">Journal Article</option>
+        <option value="Conference Paper">Conference Paper</option>
+      </select>
+
+      <label for="file">Upload Manuscript (PDF/DOCX)</label>
+      <input type="file" id="file" name="file" accept=".pdf,.doc,.docx" required>
+
+      <label for="message">Message (optional)</label>
+      <textarea id="message" name="message" placeholder="Any additional details..."></textarea>
+
+      <button type="submit">Submit Manuscript</button>
+    </form>
+  </div>
+
+  <div class="contact-info" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> info@gapub.com</p>
+    <p><strong>Phone:</strong> +1 (000) 000-00</p>
+    <p><strong>Address:</strong> 30 N Gould St Ste R: Sheridan, 82801, WY, United States of America</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/global-academic-publishers-llc/" target="_blank">Visit our LinkedIn Page</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Global Academic Publishers LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>

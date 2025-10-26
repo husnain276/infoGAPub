@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journals | Global Academic Publishers LLC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f9fafc;
+      color: #222;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #00509e;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      background-color: #0073e6;
+    }
+    .page-header {
+      background: linear-gradient(to right, #004080, #0073e6);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .page-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .page-header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .journal-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .journal {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .journal:hover {
+      transform: translateY(-5px);
+    }
+    .journal img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .journal h3 {
+      font-size: 1.2rem;
+      margin: 1rem 0 0.5rem 0;
+      color: #003366;
+    }
+    .journal p {
+      font-size: 0.95rem;
+      padding: 0 1rem 1rem;
+      color: #555;
+    }
+    .journal a {
+      display: inline-block;
+      background-color: #00509e;
+      color: white;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+    .journal a:hover {
+      background-color: #0073e6;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Global Academic Publishers LLC</h1>
+    <p>Advancing Global Knowledge Through Research Excellence</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="books.html">Books</a>
+    <a href="journals.html">Journals</a>
+    <a href="services.html">Services</a>
+    <a href="submit.html">Submit Manuscript</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="page-header">
+    <h1>Our Journals</h1>
+    <p>We publish peer-reviewed open access journals in science, technology, veterinary medicine, and the humanities, promoting innovation and scholarly excellence.</p>
+  </section>
+
+  <section class="journal-gallery">
+    <div class="journal">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Journal 1">
+      <h3>Integrative Reproductive Biology</h3>
+      <p>An international journal dedicated to publishing innovative research in reproductive physiology, biotechnology, and animal fertility.</p>
+      <a href="#">Visit Journal</a>
+    </div>
+
+    <div class="journal">
+      <img src="https://images.unsplash.com/photo-1581093588401-22e8c678a49e" alt="Journal 2">
+      <h3>Global Journal of Data Science</h3>
+      <p>Focusing on data-driven research, machine learning, and artificial intelligence applications in scientific disciplines.</p>
+      <a href="#">Visit Journal</a>
+    </div>
+
+    <div class="journal">
+      <img src="https://images.unsplash.com/photo-1581091012184-5c1e6b8b8b90" alt="Journal 3">
+      <h3>Veterinary Innovations</h3>
+      <p>Publishes high-impact research articles, case reports, and reviews in veterinary science and animal health management.</p>
+      <a href="#">Visit Journal</a>
+    </div>
+
+    <div class="journal">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Journal 4">
+      <h3>Frontiers in Academic Publishing</h3>
+      <p>Exploring publishing trends, open-access ethics, and global knowledge dissemination in academia.</p>
+      <a href="#">Visit Journal</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Global Academic Publishers LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
